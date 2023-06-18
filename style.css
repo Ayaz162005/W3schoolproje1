@@ -1,0 +1,373 @@
+body,html{
+    height: 100%;
+    font-size: 15px;
+}
+body{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+ background-color: black;
+}
+.nav{
+    background-color: rgb(43, 41, 41);
+    width: 150px;
+    height: 100%;
+position: absolute;
+}
+
+.header{
+padding: 20px 70px;
+text-align: center;
+}
+.main{
+
+background-color: black;
+
+
+margin-left:150px ;
+color: white;
+
+}
+.main-2{
+    margin: auto;
+    max-width: 1000px;
+    padding: 15px;
+}
+.main h1{
+   font-weight: 300;
+     font-size: 4.5rem;
+}
+.main img{
+width: 100%;
+}
+.main .main-body{
+   padding: 10px;
+}
+.main-body hr{
+    width: 130px;
+
+    
+}
+.line{
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    width: 100px;
+}
+.main-body .bar{
+background-color: white;
+height: 20px;
+}
+#item1{
+    background-color: rgb(110, 109, 109);
+    width: 95%;
+    height: 20px;
+}
+#item2{
+    background-color: rgb(110, 109, 109);
+    width: 85%;
+    height: 20px;
+}
+#item3{
+    background-color: rgb(110, 109, 109);
+    width: 80%;
+    height: 20px;
+}
+#white{
+    margin-top: 30px;
+
+    background-color: white;
+    height: 150px;
+    color: black;
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+}
+#white div{
+    text-align: center;
+}
+#white span{
+font-size: 1rem;
+display: block;
+
+}
+.main-body button{
+    padding: 15px;
+    background-color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: darkgray;
+
+}
+.main-body button i{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+.chart{
+
+    display: flex;
+    margin-top: 10px;
+   
+}
+.chart1{
+    margin-right: 10px;
+}
+.chart .charts{
+height: 100%;
+background-color: darkgray;
+
+flex-grow: 2;
+text-align: center;
+position: relative;
+}
+.charts  li{
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    color: black;
+border-bottom: 1px solid rgb(153, 149, 149);
+font-size: 1.3rem;
+}
+.charts li:nth-child(1){
+    padding: 30px;
+    color: rgba(255, 255, 255, 0.562);
+    background-color: rgb(63, 63, 63);
+}
+.charts li:nth-child(6){
+    padding: 45px;
+ 
+  
+    font-size: 2rem;
+}
+.charts li:nth-child(7){
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.562);
+    background-color: rgb(137, 133, 133);
+    font-size: 2rem;
+}
+.charts li:nth-child(7) button{
+    background-color: rgba(255, 255, 255, 0.371);
+    border: none;
+    width: 130px;
+    
+}
+.charts li:nth-child(7) button:hover{
+    background-color: black;
+    color: white;
+    
+}
+.charts li span{
+    display: block;
+    font-size: 1rem;
+}
+.chart .charts{
+height: 100%;
+background-color: darkgray;
+flex-grow: 2;
+text-align: center;
+}
+.charts:hover{
+   
+   background-color: white ;
+   
+  
+}
+.Repu{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.Repu div p span{
+    margin-left: 15px;
+}
+.Repu img{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.flex{
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+.flex .part-1 div{
+    margin-bottom: 10px;
+}
+.flex .part-2 div{
+    margin-bottom: 10px;
+}
+.part-1{
+    width: 100%;
+}
+.part-2{
+    width: 100%;
+}
+.loc i{
+    font-size: 2rem;
+    margin: 10px 20px;
+}
+.loc span{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+form input{
+    display: block;
+    width: 93%;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+form button{
+    
+    display: block;
+}
+.footer{
+    margin-top: 100px;
+}
+.footer i{
+font-size: 1.5rem;
+margin: 5px;
+cursor: pointer;
+color: rgba(255, 255, 255, 0.486);
+}
+.footer i:hover{
+    color: rgba(255, 255, 255, 0.204);
+}
+.footer p a{
+    color: white;
+    
+}
+.footer p a:hover{
+    color: green;
+}
+p{
+    color: #757575;
+    
+}
+#hed{
+    color: white;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+}
+.nav div img{
+    width: 100%;
+   
+}
+.nav div a{
+    text-decoration: none;
+ color: white;
+}
+.nav div{
+height: 150px;
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+.nav .spe{
+   height: 165px;
+   padding-top: 0 !important;
+   
+}
+.layout{
+    background-color:  rgb(43, 41, 41);;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+opacity: 0.6;
+}
+.nav span{
+    display: block;
+    margin-top: 10px;
+}
+.nav div a i{
+    font-size: 2.5rem;
+    display: block;
+    margin-top: 35px;
+}
+.nav .home{
+    background-color: black;
+}
+.nav div a{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.nav div:hover{
+    background-color: black;
+}
+.nav .home:hover{
+    background-color: rgba(255, 255, 255, 0.815);
+    
+}
+.nav .home:hover a{
+    color: black;
+}
+
+@media (max-width:600px){
+
+.main{
+    width: 100%;
+    margin: 0;
+}
+#white{
+    flex-direction: column;
+    height: auto;
+
+}
+#white div{
+    padding: 25px;
+}
+.chart{
+    flex-direction: column;
+}
+.chart1{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.flex{
+    display: block;
+}
+.nav{
+    height: 30px;
+    width: 100%;
+    flex-direction: row;
+    background-color: black;
+justify-content: stretch;
+}
+.nav .spe{
+    display: none;
+}
+.nav div{
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    
+}
+.nav div a i{
+    margin: 0;
+    display: none;
+}
+.nav div:hover{
+  background-color: rgba(255, 255, 255, 0.756);
+
+}
+.nav div:hover a {
+    color: black;
+  
+  }
+  .nav div a span{
+    margin-top: 5px;
+  }
+ .nav div{
+    width: 100%;
+  }
+}
